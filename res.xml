@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 68.0.3440 / Mac OS X 10.13.6" tests="2" failures="1" skipped="0" errors="1" time="18.517" timestamp="Wed, 08 Aug 2018 17:36:45 GMT" >
+  <testcase classname="My fixture" name="Empty" time="12.966">
+  </testcase>
+  <testcase classname="My fixture" name="good" time="5.111">
+    <failure>
+    <![CDATA[
+      1) Error on page "https://www.nationalgeographic.com/":
+
+         Uncaught Error: Couldn't load textural video: {"isTrusted":true}
+
+         Browser: Chrome 68.0.3440 / Mac OS X 10.13.6
+
+             7 |.page(`${process.env.WEBPAGE}`);
+             8 |
+             9 |test('good', async t => {
+            10 |  await t
+            11 |    //.scroll(natGeoPage.tvPackage)
+          > 12 |    .click(natGeoPage.tvPackage);
+            13 |});
+
+            at <anonymous>
+      (/Users/oscar.gaytan/Desktop/natGeoTestCafe/test/TestCases/TestCase01.js:12:6)
+            at test (/Users/oscar.gaytan/Desktop/natGeoTestCafe/test/TestCases/TestCase01.js:9:1)
+    ]]>
+    </failure>
+  </testcase>
+</testsuite>

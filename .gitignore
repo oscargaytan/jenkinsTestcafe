@@ -1,0 +1,23 @@
+.env
+.idea
+node_modules
+config/config.json
+package-lock.json
+
+# Continuous integration build information
+.ci-build
+
+# Files currently being edited
+*.swp
+
+# VS Dev
+.vscode
+
+# Maintenance tasks log
+maintenance.log
+
+# npm debug
+npm-debug.log
+
+# File that stores folder attributes: https://en.wikipedia.org/wiki/.DS_Store
+.DS_Store
