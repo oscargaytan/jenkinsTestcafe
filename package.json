@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test1": "testcafe chrome:headless",
-    "test":"node_modules/.bin/testcafe chrome tests/**/* -r xunit:res.xml"
+    "test":"node_modules/.bin/testcafe chrome test/**/* -r xunit:res.xml"
   },
   "author": "",
   "license": "ISC",
