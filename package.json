@@ -1,0 +1,14 @@
+{
+  "name": "natgeotestcafe",
+  "version": "1.0.0",
+  "description": "This is an automated test to natGeo website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^0.21.0"
+  }
+}
