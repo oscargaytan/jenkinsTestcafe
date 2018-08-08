@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test1": "testcafe chrome:headless",
-    "test":"node_modules/.bin/testcafe chrome test/**/* -r xunit:res.xml"
+    "test": "node_modules/.bin/testcafe chrome test/**/* -r xunit:res.xml"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "testcafe": "^0.21.0"
   }
 }

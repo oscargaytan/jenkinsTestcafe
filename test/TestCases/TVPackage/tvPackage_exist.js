@@ -1,9 +1,10 @@
 import NatGeoPage from '../../PageObject/homePage';
+require('dotenv').config();
 
 const natGeoPage = new NatGeoPage();
 
 fixture`My fixture`
-.page(`https://www.nationalgeographic.com/`);
+.page(`${process.env.WEBPAGE}`);
 
 test('Empty', async t => {
   //await t
