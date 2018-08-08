@@ -6,7 +6,7 @@
   "scripts": {
     "test1": "testcafe chrome:headless",
     "test": "node_modules/.bin/testcafe chrome test/**/* -r xunit:res.xml",
-    "testSauce": "testcafe 'saucelabs:${SELENIUM_BROWSER}:${SELENIUM_PLATFORM}' test/**/*"
+    "testSauce": "testcafe `saucelabs:${SELENIUM_BROWSER}:${SELENIUM_PLATFORM}` test/**/*"
   },
   "author": "",
   "license": "ISC",
