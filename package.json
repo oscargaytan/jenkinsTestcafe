@@ -6,7 +6,7 @@
   "scripts": {
     "test1": "testcafe chrome:headless",
     "test": "node_modules/.bin/testcafe chrome test/**/* -r xunit:res.xml",
-    "testSauce": "testcafe 'saucelabs:Chrome@68.0:macOS 10.13' test/**/*"
+    "testSauce": "testcafe chrome test/**/*"
   },
   "author": "",
   "license": "ISC",
